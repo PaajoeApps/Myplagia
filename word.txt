@@ -1,1 +1,4 @@
-We recommend enabling the Windows Subsystem for Linux (WSL) to take full advantage of all the functionality of venv on Windows 10. This feature allows you to run a complete Linux distribution within Windows to aid in the functionality of the new dev environment.
+Right Arrow Curving Down
+A curved arrow pointing down.
+
+Right Arrow Curving Down was approved as part of Unicode 3.2 in 2002 under the name "Arrow Pointing Rightwards Then Curving Downwards" and added to Emoji 1.0 in 2015.

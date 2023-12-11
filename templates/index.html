@@ -24,18 +24,22 @@
         </div>
         </div>
       <div class="d-flex justify-content-center">
-        <input name="file" class="form-control form-control-md h-25 d-flex justify-content-center shadow bg-white" id="formFileLg" type="file" style="border-radius: 10px; width: 270px; margin-top: 20px; margin-bottom: 20px;">
+       <input name="file" class="form-control form-control-md h-25 d-flex justify-content-center shadow bg-white" id="formFileLg" type="file" style="border-radius: 10px; width: 270px; margin-top: 20px; margin-bottom: 20px;">
       </div>
       <div class="d-flex justify-content-center">
-        <button type="submit" class="btn btn-dark" style="border-radius: 15px; height: 45px;"><i class="bi bi-search"></i>Myfolder Check Plagiarism</button>
+        <button type="submit" class="btn btn-dark" style="border-radius: 15px; height: 45px;"><i class="bi bi-search"></i>Check Plagiarism</button>
       </div>
     </form>
       <div id="hasil" style="margin-top: 80px;">
-        <h1 align="center">Result</h1>
+        <h1 align="center">Result (%)</h1>
         <div style="padding-bottom: 30px" class="container">
             <div class="col d-flex justify-content-center">
-                <div class="p-3 border bg-dark text-light text-center" style="width: 180px; border-radius: 15px;">Plagiarsm : {{ hasil_persen }}</div>
+               
+              <div class="p-3 border bg-dark text-light text-center" style="width: 180px; border-radius: 15px;">Plagiarism : {{ hasil_persen }}</div>
+             
             </div>
+            <br/>
+              <h4 align="center">Click on the text below to know source ⤵️</h4>
         </div>
     </div>
         <div class="container">
@@ -47,5 +51,11 @@
         </div>
       </div>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+<style>
+  textarea::placeholder {
+  font-size: 30px;
+}
+</style>
+
 </body>
 </html>
